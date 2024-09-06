@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#login-container, #chat-container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#chat-box {
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#message-input, #image-input, #send-btn {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#message-input {
+    border: 1px solid #ddd;
+}
+
+#send-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.admin .delete-btn {
+    color: red;
+    cursor: pointer;
+}
