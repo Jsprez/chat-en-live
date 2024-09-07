@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat en direct</title>
+    <title>Football Achievements</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="login-container">
-        <h2>Connexion</h2>
-        <input type="text" id="username" placeholder="Nom d'utilisateur">
-        <input type="email" id="email" placeholder="Email">
-        <input type="password" id="password" placeholder="Mot de passe">
-        <button id="login-btn">Se connecter</button>
-    </div>
-
-    <div id="chat-container" style="display:none;">
-        <h2>Chat en direct</h2>
-        <div id="chat-box"></div>
-        <input type="file" id="image-input" accept="image/*">
-        <input type="text" id="message-input" placeholder="Tapez votre message">
-        <button id="send-btn">Envoyer</button>
-    </div>
-
+    <header>
+        <h1>Football Achievements</h1>
+        <nav>
+            <ul>
+                <li><a href="#champions-league">Ligue des Champions</a></li>
+                <li><a href="#championships">Championnat</a></li>
+                <li><a href="#ballon-dor">Ballon d'Or</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="champions-league">
+            <h2>Vainqueurs de la Ligue des Champions</h2>
+            <div id="champions-league-list"></div>
+        </section>
+        <section id="championships">
+            <h2>Vainqueurs des Championnats</h2>
+            <div id="championships-list"></div>
+        </section>
+        <section id="ballon-dor">
+            <h2>Vainqueurs du Ballon d'Or</h2>
+            <div id="ballon-dor-list"></div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
