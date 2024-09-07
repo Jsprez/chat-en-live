@@ -1,44 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
     text-align: center;
 }
 
-#login-container, #chat-container {
-    margin: 50px auto;
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-#chat-box {
-    border: 1px solid #ddd;
-    height: 300px;
-    overflow-y: scroll;
-    margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
 }
 
-#message-input, #image-input, #send-btn {
-    display: block;
-    margin: 10px auto;
-    width: 100%;
-    padding: 10px;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-#message-input {
-    border: 1px solid #ddd;
+main {
+    padding: 2rem;
 }
 
-#send-btn {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
+section {
+    margin-bottom: 2rem;
 }
 
-.admin .delete-btn {
-    color: red;
-    cursor: pointer;
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
